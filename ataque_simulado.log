@@ -1,0 +1,6 @@
+2026-08-26 10:00:01 INFO User login 192.168.1.15
+2026-08-26 10:01:12 WARN powershell -enc aQBmAHYAbwBrAGUALQBNA detected
+2026-08-26 10:01:15 ALERT Invoke-Mimikatz detected in process 4521
+2026-08-26 10:02:03 INFO nmap -sS 10.0.0.0/24 scan started
+2026-08-26 10:02:45 INFO Connection to 10.0.0.5:4444 established
+2026-08-26 10:03:00 INFO Normal traffic to 8.8.8.8
