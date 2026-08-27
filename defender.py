@@ -30,7 +30,13 @@ def defender(log_file):
 
     print(f"[+] IPs bloqueadas guardadas en {BLOCKED_FILE}")
     print(f"[+] Reporte generado en {REPORT_FILE}")
+        # Hash del reporte para que sea único cada ejecución
+    import hashlib
+    with open(REPORT_FILE, 'rb') as rf:
+        sha_reporte = hashlib.sha256(rf.read()).hexdigest()
+    
     print(f"[+] SHA256 Evidencia: {sha}")
+    print(f"[+] SHA256 Reporte UNICO: {sha_reporte}")
     print("[OK] DEFENSA COMPLETADA")
 
 if __name__ == "__main__":
