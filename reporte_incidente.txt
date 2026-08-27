@@ -1,5 +1,5 @@
-REPORTE DE INCIDENTE - 2026-08-26 09:23:03.392062
+REPORTE DE INCIDENTE - 2026-08-27 06:34:28.812776
 Archivo: ataque_simulado.log
 SHA256: b691e507360a4a563496be89a1735e0dc47ffac64dad1916c5dcc22e57315743
-IPs Bloqueadas: 10.0.0.0, 10.0.0.5, 192.168.1.15
+IPs Bloqueadas: 192.168.1.15, 10.0.0.5, 10.0.0.0
 Accion: Bloqueo preventivo aplicado
