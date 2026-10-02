@@ -1,14 +1,14 @@
 # Threat-Hunter-Defender v2.0
-SOC Automatizado con Evidencia Forense SHA256
+Automated SOC with SHA256 Forensic Evidence
 
-Funciones:
-- Deteccion de Mimikatz, PowerShell -enc, nmap, sqlmap
-- Calculo SHA256 para cadena de custodia
-- Bloqueo automatico de IPs
-- Reporte de incidente
+Features:
+- Detection of Mimikatz, PowerShell -enc, nmap, sqlmap
+- SHA256 Calculation for chain of custody
+- Automatic IP blocking
+- Incident reporting
 
-Uso:
+Usage:
 python3 detector.py ataque_simulado.log
 python3 defender.py ataque_simulado.log
 
-Evidencia SHA256: b691e507360a4a563496be89a1735e0dc47ffac64dad1916c5dcc22e57315743
+SHA256 Evidence: b691e507360a4a563496be89a1735e0dc47ffac64dad1916c5dcc22e57315743
